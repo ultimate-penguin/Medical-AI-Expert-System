@@ -29,11 +29,23 @@ A prototype medical decision-support model written in **Common Lisp** that takes
 ### 3. Actions & Transition Dynamics
 <img width="747" height="511" alt="image" src="https://github.com/user-attachments/assets/224798d0-9593-4a54-a2e6-fa4cfeeeb25c" />
 
-### 4. Objective & Reward Structure
+### 4. Reward 
 ● R(Healthy) = 1\
 ● R(Flu) = −1\
 ● R(Allergy) = −0.5\
 ● ϕ = 0.1
 
+**Getting Started**\
+git clone https://github.com/ultimate-penguin/Medical-AI-Expert-System.git
+
+cd Medical-AI-Expert-System
+
+sbcl --load expert.lisp
+
+
+**Author**\
+Ultimate Penguin
+
+GitHub: https://github.com/ultimate-penguin
 
 

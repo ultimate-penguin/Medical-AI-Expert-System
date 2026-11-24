@@ -2,9 +2,6 @@
 
 A prototype medical decision-support model written in **Common Lisp** that takes observable symptoms (**fever**, **runny nose**, **headache**), estimates the patient's underlying state (**flu** vs. **allergy**) using a **Hidden Markov Model (HMM)**, and selects a treatment action (**provide flu medication** vs. **provide allergy medication**) using a **Markov Decision Process (MDP)** aimed at restoring the patient to a **healthy** state.
 
-> **Disclaimer:** This project is an educational AI and decision-modeling simulation. It is not intended for real-world clinical diagnosis or medical treatment.
-
----
 
 ## Overview
 

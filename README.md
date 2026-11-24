@@ -32,15 +32,24 @@ A prototype medical decision-support model written in **Common Lisp** that takes
 ● R(Allergy) = −0.5\
 ● ϕ = 0.1
 
-**Getting Started**\
+---
+
+## Getting Started
 git clone https://github.com/ultimate-penguin/Medical-AI-Expert-System.git
 
 cd Medical-AI-Expert-System
 
-sbcl --load expert.lisp
+sbcl --load expert.lisp\
+(init-agent)
+
+**example output**
+
+<img width="682" height="107" alt="image" src="https://github.com/user-attachments/assets/24535b22-c133-43af-a490-9200f5a5fb29" />
 
 
-**Author**\
+---
+**Author**
+
 Ultimate Penguin
 
 GitHub: https://github.com/ultimate-penguin
